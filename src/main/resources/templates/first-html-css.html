@@ -6,24 +6,52 @@
 text-align: center;
 }
 
+.div-1{
+    text-align: center;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
 .reklamme{
     text-align: center;
     background-color: darkgreen;
-    height: 140px;
 }
 
 .første-historie{
-    text-align: center;
+
+
     background-color: red;
-    height: 600px;
     margin-top: 10px;
+    height: 600px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+
+
 }
 
 .anden-historie{
-    text-align: center;
+
     background-color: yellow;
     height: 600px;
-    margin-top: 10px;
+    width: 1000px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.tredje-historie{
+    background-color: darkcyan;
+    height: 600px;
+    width: 1000px;
+    margin-top: 50px;
 }
 
 .footer{
@@ -46,33 +74,47 @@ white-space: nowrap;
 }
 
 #stor-hvid-skrift{
-    font-size: 250px;
+    text-align: center;
+    font-size: 180px;
     color: white;
 }
 
 #stor-sort-skrift{
-    font-size: 180px;
+    text-align: center;
+    font-size: 140px;
+    color: black;
 }
+
+#live{
+    justify-content: flex-start;
+}
+
+#putin {
+    text-align: center;
+    font-size: 180px;
+    color: green;
+}
+
 
 
 </style>
 
-<header>
+<head>
     <title> B.T. </title>
+
     <h1 class= "overskrift">
         B.T.
-
     </h1>
 
     <h4 class = "overskrift"> NYHEDER SPORT UNDERHOLDNING</h4>
+</head>
 
-</header>
 
-<body>
+<body class = "body">
 
 <div class = "reklamme" >
 
-   <h3> ALT HUNDEN FORTJENER </h3>
+    <h3> ALT HUNDEN FORTJENER </h3>
     <h5> Find et dybt sortiment af foder samt <br> accessories og forkæl menneskets bedste ven</h5>
 
     <footer class = "footer">
@@ -85,23 +127,38 @@ white-space: nowrap;
 
 </div>
 
+<div class = "div-1">
+
+
 <div class = "første-historie">
-<h1 id = "stor-hvid-skrift">
-    Ramt af rotte plage
-</h1>
+    <a href = "https://www.bt.dk/udland/live-usa-invasion-af-ukraine-kan-vaere-faa-dage-borte-forlad-landet"><h1 id = "stor-hvid-skrift">
+        Ramt af rotte plage
+    </h1> </a>
 
 
 </div>
 
 <div class="anden-historie">
 
-    <header>
+    <header id = "live">
         LIVE / VIRUS
     </header>
 
-    <h1 id = "stor-sort-skrift">
+<a href = "https://www.bt.dk/vejret/vand-overalt-vi-har-ikke-haft-noget-i-samme-kategori-siden-1941"><h1 id = "stor-sort-skrift">
         Kæmpe hæder til dansker
-    </h1>
+    </h1> </a>
+
+</div>
+
+
+<div class="tredje-historie">
+    <a href = "https://www.bt.dk/udland/live-usa-invasion-af-ukraine-kan-vaere-faa-dage-borte-forlad-landet">
+        <h1 id = "putin">
+            Invasion på vej
+        </h1>
+    </a>
+<img src="https://jyllands-posten.dk/Uf-7n4N7w2aEEBy75KNylEtWhuX8lJoxSSnuNG69_GU/plain/https%3A%2F%2Fjyllands-posten.dk%2Fpictures%2Fimage%2F13754488%2Fm5gw47%2FALTERNATES%2Fnative-app-2048%2Frussia-belarus-politics-diplomacy-defence" width="1000">
+</div>
 
 </div>
 
